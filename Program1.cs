@@ -8,7 +8,7 @@ int n = 10;
 static string GetNumbers(int m, int n)
 {
     if(m == n)
-        return "";
+        return $"{n}";
     
     return $"{m} " + GetNumbers(m + 1, n);
 }
